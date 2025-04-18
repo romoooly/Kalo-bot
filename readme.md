@@ -36,7 +36,8 @@
 
 ### 3. تنظیم Webhook
 1. درخواست زیر را ارسال کنید:
-https://api.telegram.org/bot<BOT_TOKEN>/setWebhook?url=https://ورکرتون.workers.dev/
+
+https://api.telegram.org/bot<BOT_TOKEN>/setWebhook?url=https://your-worker.workers.dev/
 
 ### 4. تنظیمات حریم خصوصی
 1. به `@BotFather` پیام دهید.
