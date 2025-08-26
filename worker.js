@@ -24,8 +24,8 @@ export default {
     const chatId = message.chat.id;
     const userText = message.text;
     const chatType = message.chat.type;
-    const botUsername = "Kaloobot"; // نام کاربری ربات
-    const botName = "کلو"; // اسم ربات
+    const botUsername = "rombot"; // نام کاربری ربات
+    const botName = "رومولی"; // اسم ربات
 
 
     let isRelevantMessage = false;
@@ -126,7 +126,7 @@ export default {
     // پرامپت برای Gemini
     let promptText;
     if (isAskingAboutName) {
-promptText = `به این جمله یا سوال جواب کوتاه و طنز بده مثل یک رفیق بامزه باش و اول پیام بگو من کلو هستم تاکید میکنم جواب کوتاه بده ، جمله یا سوال : "${userText}"`;
+promptText = `به این جمله یا سوال جواب کوتاه و طنز بده مثل یک رفیق بامزه باش و اول پیام بگو من رومولی هستم تاکید میکنم جواب کوتاه بده ، جمله یا سوال : "${userText}"`;
     } else {
       promptText = `یه جواب کوتاه و طنز به فارسی بده به این پیام، مثل یه دوست صمیمی حرف بزن، بدون توضیح یا سؤالم: "${userText}"`;
     }
